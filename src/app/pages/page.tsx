@@ -1,7 +1,7 @@
 // pages/index.js
 import { useEffect, useState } from 'react';
-import RecordList from './components/RecordList';
-import RecordList from './components/RecordList';
+import RecordForm from '../components/RecordForm';
+import RecordList from '../components/RecordList';
 
 export default function Home() {
   const [records, setRecords] = useState([]);
